@@ -1,0 +1,56 @@
+[{
+  "_id": "kv4ri9h3tzafmcxy641pj",
+  "nama": "Amoxicillin 250 mg",
+  "kandungan": "-",
+  "jenis": 1,
+  "satuan": 8,
+  "kode_rak": "A1",
+  "stok_minimum": {
+    "gudang": 200,
+    "apotik": 20
+  },
+  "kriteria": {
+    "antibiotik": 1,
+    "narkotika": 2,
+    "psikotropika": 2,
+    "fornas": 2
+  },
+  "petugas": "gy3sqrq0d0ol5xx6vad96h",
+  "updated": 1734370580539,
+  "batch": [
+    {
+      "no_batch": "batch1",
+      "merek": "generik",
+      "masuk": 1734393600000,
+      "kadaluarsa": 1768608000000,
+      "stok": {
+        "gudang": 300,
+        "apotik": 95
+      },
+      "harga": {
+        "beli": 10000,
+        "jual": 12000
+      },
+      "sumber": {
+        "supplier": "Kimia Farama",
+        "anggaran": "-",
+        "no_spk": "-",
+        "tanggal_spk": 1734393600000
+      },
+      "idbatch": "zz8coijnojphhrk4puiznv",
+      "petugas": "gy3sqrq0d0ol5xx6vad96h",
+      "amprah": [
+        {
+          "idamprah": "sluq814ha2qnx5ge4iatne",
+          "ruangan": 4,
+          "peminta": "mag0sus2pzo84lyildkd",
+          "diminta": 100,
+          "tanggal_minta": 1734369521247,
+          "diserah": 100,
+          "penyerah": "gy3sqrq0d0ol5xx6vad96h",
+          "tanggal_serah": 1734369557066
+        }
+      ]
+    }
+  ]
+}]

@@ -1,0 +1,184 @@
+[{
+  "_id": "m0ubq6567eqp0570gil8h",
+  "identitas": {
+    "no_mr": 34562,
+    "ktp": 110707221600011,
+    "bpjs": 12454684489898,
+    "alias": 2,
+    "nama_lengkap": "Junaidi",
+    "tanggal_lahir": 438220800000,
+    "tempat_lahir": "kota sigli",
+    "kelamin": 1,
+    "agama": 1,
+    "nikah": 1,
+    "pendidikan": 4,
+    "darah": 4,
+    "pekerjaan": 1,
+    "tempat_tinggal": "aceh",
+    "kontak": 82242867744,
+    "keluarga": {
+      "ayah": "Ismail",
+      "ibu": "sumiati",
+      "pasangan": "-"
+    },
+    "petugas": "2xn4a4bb7x4shhh0uyxq7",
+    "tanggal_input": 1729482263408
+  },
+  "updated": 1734370580538,
+  "rawatJalan": [
+    {
+      "cara_bayar": 2,
+      "no_sep": "123.26584968785622",
+      "klinik": 1,
+      "rujukan": 3,
+      "sumber_rujukan": "Pukesmas Pidie",
+      "penanggungjawab": "Monti",
+      "idrawat": "dyot7dd48983epd7qwnzgx",
+      "tanggal": 1729627028361,
+      "antrian": 1,
+      "soapDokter": {
+        "anamnesa": "pasien merasa pusing dan mual serta bdan terasa panas",
+        "diagnosa": [
+          {
+            "text": "Demam"
+          }
+        ],
+        "obat": [
+          {
+            "search": "amoxicillin",
+            "idbarang": "kv4ri9h3tzafmcxy641pj",
+            "jumlah": 3,
+            "aturan": "3 * 1",
+            "sisa": 0,
+            "diserah": true,
+            "harga": 36000
+          }
+        ],
+        "keluar": 1,
+        "spm": 26979,
+        "dokter": "g4jkcw1tbcja9he4mqhtyu",
+        "tanggal": "1734370267200",
+        "apoteker": "mag0sus2pzo84lyildkd"
+      }
+    }
+  ],
+  "emergency": [],
+  "rawatInap": []
+},
+{
+  "_id": "b34p4eei4t6vmcszzt9bpm",
+  "identitas": {
+    "no_mr": 34563,
+    "ktp": 11070722100009,
+    "bpjs": 11111555501,
+    "alias": 1,
+    "nama_lengkap": "Monti",
+    "tanggal_lahir": 976752000000,
+    "tempat_lahir": "tangse",
+    "kelamin": 1,
+    "agama": 1,
+    "nikah": 2,
+    "pendidikan": 5,
+    "darah": 1,
+    "pekerjaan": 7,
+    "tempat_tinggal": "Tangse",
+    "kontak": 82242867699,
+    "keluarga": {
+      "ayah": "Yusuf",
+      "ibu": "fatimah"
+    },
+    "petugas": "2xn4a4bb7x4shhh0uyxq7",
+    "tanggal_input": 1734109649904
+  },
+  "updated": 1734366452934,
+  "rawatJalan": [
+    {
+      "cara_bayar": 2,
+      "no_sep": "0212R000304160000013",
+      "klinik": 1,
+      "rujukan": 3,
+      "penanggungjawab": "sofia",
+      "idrawat": "f3rgibzltf9yqtehrrxs6j",
+      "tanggal": 1734113942426,
+      "antrian": 1,
+      "soapDokter": {
+        "anamnesa": "terlalu banyak over thinking karena jomblo",
+        "diagnosa": [
+          {
+            "text": "sakit kepala"
+          }
+        ],
+        "keluar": 1,
+        "spm": 6384,
+        "dokter": "g4jkcw1tbcja9he4mqhtyu",
+        "tanggal": "1734366408674"
+      }
+    }
+  ]
+},
+{
+  "_id": "3lsbacvpi8k04g49nmuv7ii",
+  "identitas": {
+    "no_mr": 21313,
+    "ktp": 110707221490001,
+    "alias": 1,
+    "nama_lengkap": "Arif",
+    "tanggal_lahir": 945820800000,
+    "tempat_lahir": "mila",
+    "kelamin": 1,
+    "agama": 1,
+    "nikah": 2,
+    "pendidikan": 5,
+    "darah": 4,
+    "pekerjaan": 3,
+    "tempat_tinggal": "mila",
+    "kontak": 82242867744,
+    "keluarga": {
+      "ayah": "mae",
+      "ibu": "romlah"
+    },
+    "petugas": "2xn4a4bb7x4shhh0uyxq7",
+    "tanggal_input": 1734373346737
+  },
+  "updated": 1734373353136,
+  "rawatJalan": [
+    {
+      "cara_bayar": 1,
+      "klinik": 1,
+      "rujukan": 1,
+      "penanggungjawab": "monti",
+      "idrawat": "yoej0ik2qdz73rklq18rc",
+      "tanggal": 1734366236420,
+      "antrian": 1,
+      "bayar_pendaftaran": true,
+      "kasir": "1i79i13aehnvc42lu0yht",
+      "soapDokter": {
+        "anamnesa": "merasa pusing dan meriang",
+        "diagnosa": [
+          {
+            "text": "demam"
+          }
+        ],
+        "obat": [
+          {
+            "search": "amoxicillin",
+            "idbarang": "kv4ri9h3tzafmcxy641pj",
+            "jumlah": 2,
+            "aturan": "3 * 1",
+            "sisa": 0,
+            "diserah": true,
+            "harga": 24000
+          }
+        ],
+        "keluar": 1,
+        "spm": 65017,
+        "dokter": "g4jkcw1tbcja9he4mqhtyu",
+        "tanggal": "1734369731096",
+        "apoteker": "mag0sus2pzo84lyildkd"
+      },
+      "bayar_konsultasi": true
+    }
+  ],
+  "emergency": [],
+  "rawatInap": []
+}]

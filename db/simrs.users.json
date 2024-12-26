@@ -1,0 +1,82 @@
+[{
+  "_id": "050zjiki5pqoi0f2ua0xdm",
+  "username": "admin",
+  "nama": "admin",
+  "bidang": 5,
+  "peranan": 4,
+  "keaktifan": 1,
+  "password": "$2b$10$xZ22.NIdyoSP65nPTRUf2uN9.Dd4gkCbChwD5fOCjTm4kSPHylS4a",
+  "updated": 1590416308426
+},
+{
+  "_id": "mw5x1c6wmel17v8i45vte",
+  "nama": "Alkhaled",
+  "username": "alkhaled",
+  "password": "$2b$10$.DvtYM2R/madbzQth7GdEe9kQo6mKa6L.xgz3N8mwCcvu8Rq7ALca",
+  "peranan": 2,
+  "bidang": 6,
+  "poliklinik": 1,
+  "keaktifan": 1,
+  "updated": 1734188415177
+},
+{
+  "_id": "2xn4a4bb7x4shhh0uyxq7",
+  "nama": "monti",
+  "username": "monti",
+  "password": "$2b$10$Awj7ON5tZdYp4v6dfbDj0.qNv4UjdxEloQzlPV9RFCMvk.6ynT3fm",
+  "peranan": 1,
+  "bidang": 1,
+  "keaktifan": 1,
+  "updated": 1729086602165
+},
+{
+  "_id": "g4jkcw1tbcja9he4mqhtyu",
+  "nama": "Subuhan",
+  "username": "subuhan",
+  "password": "$2b$10$sOFa4JUe5zntC7BlXerGWOXG0rofUC8NJTbFjQMzt2tHW8ih4ma9e",
+  "peranan": 3,
+  "bidang": 6,
+  "poliklinik": 1,
+  "keaktifan": 1,
+  "updated": 1734365188373
+},
+{
+  "_id": "hf33udf76pud05yd8tv54g",
+  "nama": "Ibrahim",
+  "username": "ibrahim",
+  "password": "$2b$10$NkCEYhkenQbEGWqoRq7NTuJiYKT6E0gf5eKAYZXtrDvQAe7ER5Xxe",
+  "peranan": 1,
+  "bidang": 2,
+  "keaktifan": 1,
+  "updated": 1734288062231
+},
+{
+  "_id": "1i79i13aehnvc42lu0yht",
+  "nama": "Fatimah",
+  "username": "fatimah",
+  "password": "$2b$10$4iott9aWyll6vIUKXD9lueG.Nl5lckawYoRoXpzWlKS29qSbfsPFq",
+  "peranan": 1,
+  "bidang": 2,
+  "keaktifan": 1,
+  "updated": 1734365330485
+},
+{
+  "_id": "gy3sqrq0d0ol5xx6vad96h",
+  "nama": "Ramlo",
+  "username": "ramlo",
+  "password": "$2b$10$jv57oPGzLUwY7WJu7gxRce7FWoKoVWscjOD8BluItPZ8ZTNYVhi5.",
+  "peranan": 1,
+  "bidang": 3,
+  "keaktifan": 1,
+  "updated": 1734365368305
+},
+{
+  "_id": "mag0sus2pzo84lyildkd",
+  "nama": "Maya",
+  "username": "maya",
+  "password": "$2b$10$2NF6Xmm/f9ve8mJ0Q8WNsuq9HpVsVZfYf9a4lGu3m8vx7si2lsHO6",
+  "peranan": 1,
+  "bidang": 4,
+  "keaktifan": 1,
+  "updated": 1734365493991
+}]
