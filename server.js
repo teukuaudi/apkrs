@@ -11,6 +11,8 @@ app = express()
   'production' : 'development'
 )).listen(process.env.PORT || 3000)
 
+console.log('APP Running', process.env.PORT)
+
 mongoDB.MongoClient.connect(
   process.env.MONGO,
   {useNewUrlParser: true, useUnifiedTopology: true},

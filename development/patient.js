@@ -36,31 +36,31 @@ _.assign(comp, {
             label: 'Update pasien', icon: 'edit', color: 'warning',
             click: () => state.route = 'updatePatient'
           },
-          {
-            label: 'Telemedic', icon: 'headset', color: 'warning',
-            click: () => state.modalKredensial = m('.box',
-              m('h4', 'Akses Pasien Telemedic'),
-              m(autoForm({
-                id: 'kredensialForm',
-                doc: _.get(state.onePatient, 'identitas.kredensial') || {},
-                schema: schemas.telemedCred, layout: layouts.telemedCred,
-                action: doc => io().emit('bcrypt', doc.password,
-                  res => res && updateBoth(
-                    'patients', state.onePatient._id,
-                    _.assign(state.onePatient, {identitas: _.assign(
-                      state.onePatient.identitas, {kredensial: _.assign(
-                        doc, {password: res}
-                      )}
-                    )}),
-                    res => [
-                      state.modalKredensial = null,
-                      m.redraw()
-                    ]
-                  )
-                )
-              }))
-            )
-          },
+          // {
+          //   label: 'Telemedic', icon: 'headset', color: 'warning',
+          //   click: () => state.modalKredensial = m('.box',
+          //     m('h4', 'Akses Pasien Telemedic'),
+          //     m(autoForm({
+          //       id: 'kredensialForm',
+          //       doc: _.get(state.onePatient, 'identitas.kredensial') || {},
+          //       schema: schemas.telemedCred, layout: layouts.telemedCred,
+          //       action: doc => io().emit('bcrypt', doc.password,
+          //         res => res && updateBoth(
+          //           'patients', state.onePatient._id,
+          //           _.assign(state.onePatient, {identitas: _.assign(
+          //             state.onePatient.identitas, {kredensial: _.assign(
+          //               doc, {password: res}
+          //             )}
+          //           )}),
+          //           res => [
+          //             state.modalKredensial = null,
+          //             m.redraw()
+          //           ]
+          //         )
+          //       )
+          //     }))
+          //   )
+          // },
           {
             label: 'Cetak kartu', icon: 'id-card', color: 'info',
             click: () => makePdf.card(id)

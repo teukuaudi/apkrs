@@ -2,11 +2,11 @@
 
 var topMenus = _.omit(menus, ['gizi', 'telemed'])
 _.assign(comp, {
-  navbar: () => m('nav.navbar.is-primary.is-fixed-top',
+  navbar: () => m('nav.navbar.is-info.is-fixed-top',
     m('.navbar-brand',
       m('a.navbar-item',
         {onclick: () => state.route = 'dashboard'},
-        'SIMRS.dev'
+        'Sistem Informasi Pasien'
       ),
       m('.navbar-burger',
         {
@@ -94,7 +94,7 @@ _.assign(comp, {
       m('.columns', i.map(j => m('.column',
         m('a.box', m('article.media',
           {onclick: () => [state.route = j[1], m.redraw()]},
-          m('.media-left', m('span.icon.has-text-primary',
+          m('.media-left', m('span.icon.has-text-info',
             m('i.fas.fa-2x.fa-'+j[0].icon))
           ),
           m('.media-content', m('.content',m('h3', j[0].full)))
@@ -209,13 +209,14 @@ _.assign(comp, {
       ]),
       _.range(3).map(() => m('br')),
       m('.level', m('.level-item.has-text-centered',
-        m('span.icon.is-large.has-text-primary', m('i.fas.fa-8x.fa-stethoscope'))
+        m('span.icon.is-large.has-text-info', m('i.fas.fa-8x.fa-heartbeat'))
       )), m('br'),
+      m('.level-item.has-text-centered',
       m(autoForm({
         id: 'login', schema: schemas.login,
         submit: {
           value: 'Login',
-          class: state.loading ? 'is-info is-loading' : 'is-info'
+          class: state.loading ? 'is-info is-loading' : 'is-primary'
         },
         action: doc => [
           state.loading = true, m.redraw(),
@@ -231,7 +232,7 @@ _.assign(comp, {
             m.redraw()
           ])
         ]
-      }))
+      })))
      ),
     m('.column')
   ))
